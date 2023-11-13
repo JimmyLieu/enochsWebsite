@@ -51,6 +51,8 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     text-align:center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .links-container {
