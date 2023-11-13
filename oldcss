@@ -67,7 +67,6 @@ section {
     z-index: 1000;
 }
 
-
 .header .flex {
     display: flex;
     align-items: center;
@@ -106,7 +105,7 @@ section {
 }
 
 .home-bg{
-    background-color: #02020B;
+    background-color: #C4A484;
 }
 
 .center {
@@ -115,8 +114,9 @@ section {
     margin-right: auto;
     width: 50%;
   }
-
-
+p{
+    font-weight: 500;
+}
 
 
 
