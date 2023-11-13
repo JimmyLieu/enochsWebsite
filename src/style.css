@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200;300;400&display=swap');
-.h1{
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
+h1,h2{
     align-items: left;
+    font-family: 'Cinzel', sans-serif;
+}
+a{
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 500;
+    color: black;
 }
 :root{
     --main-color: #be9c79;
@@ -20,7 +27,7 @@
     text-transform: capitalize;
 }
 *:selection{
-    background-color: var(--main-color);
+    background-color:red;
     color: var(--white);
 }
 ::-webkit-scrollbar{
@@ -48,21 +55,30 @@ section {
     max-width: 1200px;
     margin:0 auto;
 }
-
+.headerName{
+    padding-left:10px;
+    font-size: 24px
+}
 .header{
     position: sticky;
     top:0; left:0; right:0;
-    background-color: var(--white);
+    background-color: var(--main-color);
     box-shadow: var(--box-shadow);
     z-index: 1000;
 }
 
+
 .header .flex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
     padding:1.5rem 2rem;
+    background-color:#be9c79
+}
+.header .navbar{
+    margin-left:auto;
+    background-color:#be9c79;
+    
 }
 
 .header .flex .logo img{
@@ -77,11 +93,13 @@ section {
 
 .header .flex .navbar a:hover{
     text-decoration: underline;
-    color: var(--main-color);
+    color: red;
+
 }
 
 #menu-btn{
     display:none;
+    margin-left:auto;
     font-size: 2.5rem;
     color:var(--black);
     cursor: pointer;
@@ -91,20 +109,12 @@ section {
     background-color: #02020B;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 
 
