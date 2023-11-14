@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(/src/assets/background.jpg);
+    background-image: url(/assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -72,6 +72,7 @@ p {
     color: #fff;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .links-container a:hover {
