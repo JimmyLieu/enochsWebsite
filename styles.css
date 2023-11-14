@@ -80,6 +80,12 @@ p {
 }
 
 
+.footerText p{
+    color: #fff;
+    font-size: 8px;
+    
+}
+
 @media (max-width: 480px) {
     p {
         font-size: 14px;
